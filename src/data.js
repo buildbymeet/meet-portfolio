@@ -77,7 +77,7 @@ export const projects = [
   {
     no: '01', category: 'ERP · Retail · Jewellery', title: 'Jay Jewellers ERP',
     text: 'Full retail ERP for a jewellery business: items, barcodes, stock, daily metal rates, purchase, sales invoices, payments and ledgers.',
-    tags: ['Java', 'Spring Boot', 'React', 'PostgreSQL', 'Redis', 'Docker'], image: './projects/p1.svg', link: 'https://github.com/buildbymeet',
+    tags: ['Java', 'Spring Boot', 'React', 'PostgreSQL', 'Redis', 'Docker'], image: './demo/shots/dashboard.png', demo: './jewellery-erp.html', link: 'https://github.com/buildbymeet',
   },
   {
     no: '02', category: 'Billing · Small Business', title: 'Quick Bill POS',

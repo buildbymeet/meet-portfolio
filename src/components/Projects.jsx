@@ -22,9 +22,14 @@ export default function Projects() {
                   <ul className="mb-8 flex flex-wrap gap-2">
                     {p.tags.map((t) => <li key={t} className="rounded-full border border-white/10 px-3 py-1 text-xs text-zinc-300">{t}</li>)}
                   </ul>
-                  <a href={p.link} className="inline-flex w-fit items-center gap-2 rounded-full bg-gradient-to-r from-cyan-400 to-violet-500 px-6 py-3 text-sm font-bold uppercase tracking-widest text-ink transition hover:gap-4 hover:shadow-[0_0_30px_rgba(34,211,238,.5)]">
-                    Discover Case <ArrowUpRight size={18} />
-                  </a>
+                  <div className="flex flex-wrap gap-3">
+                    <a href={p.demo || p.link} className="inline-flex w-fit items-center gap-2 rounded-full bg-gradient-to-r from-cyan-400 to-violet-500 px-6 py-3 text-sm font-bold uppercase tracking-widest text-ink transition hover:gap-4 hover:shadow-[0_0_30px_rgba(34,211,238,.5)]">
+                      {p.demo ? 'Watch Demo' : 'Discover Case'} <ArrowUpRight size={18} />
+                    </a>
+                    {p.demo && p.link && p.link !== '#' && (
+                      <a href={p.link} target="_blank" rel="noreferrer" className="glass inline-flex w-fit items-center rounded-full px-6 py-3 text-sm font-semibold uppercase tracking-widest text-white transition hover:border-cyan-300/60">GitHub</a>
+                    )}
+                  </div>
                 </div>
               </div>
             </Glass>
