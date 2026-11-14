@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 420" width="320" height="420">
+  <defs><linearGradient id="b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1c1c22"/><stop offset="1" stop-color="#0c0c10"/></linearGradient></defs>
+  <path d="M20 420 C20 300 90 270 160 270 C230 270 300 300 300 420Z" fill="url(#b)" stroke="#ff2547" stroke-opacity=".5" stroke-width="2"/>
+  <path d="M120 270 L160 340 L200 270" fill="none" stroke="#ff2547" stroke-width="5"/>
+  <rect x="140" y="225" width="40" height="55" rx="14" fill="#e8c7b0"/>
+  <ellipse cx="160" cy="170" rx="62" ry="72" fill="#f1d3bd"/>
+  <path d="M92 170 C84 80 150 55 200 70 C245 85 240 140 228 175 C218 130 190 112 160 112 C128 112 104 130 92 170Z" fill="#7a1020"/>
+  <path d="M108 168 L212 168 L212 188 L108 188Z" fill="#ff2547" opacity=".92"/>
+  <path d="M98 150 L70 215 M222 150 L250 215" stroke="#7a1020" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="135" cy="205" r="5" fill="#222"/><circle cx="185" cy="205" r="5" fill="#222"/>
+  <path d="M146 232 Q160 242 174 232" stroke="#b5503f" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <text x="160" y="395" text-anchor="middle" font-size="22" font-family="serif" fill="#ff2547" opacity=".8">PLACEHOLDER</text>
+</svg>
